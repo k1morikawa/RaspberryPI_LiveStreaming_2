@@ -12,7 +12,7 @@ var dateformat = require("dateformat");
 app.use('/', express.static(path.join(__dirname, 'stream')));
 
 var client = require('socket.io-client');
-var socket = client.connect('http://54.65.110.118:3001');
+var socket = client.connect('http://hogehoge:3001');
 socket.on('connect', function() {
 	console.log('Connection - ');
 
